@@ -1,0 +1,362 @@
+  
+<!DOCTYPE html>  
+<html>  
+<head>  
+  
+<title>The Motivator</title>  
+  
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+  
+<style>  
+  
+body{  
+margin:0;  
+font-family:Arial, Helvetica, sans-serif;  
+color:#222;  
+background:#f5f5f5;  
+}  
+  
+/* NAVBAR */  
+  
+.navbar{  
+background:white;  
+padding:20px 40px;  
+display:flex;  
+justify-content:space-between;  
+align-items:center;  
+border-bottom:1px solid #ddd;  
+}  
+  
+.logo{  
+font-weight:bold;  
+font-size:20px;  
+}  
+  
+.navbar a{  
+text-decoration:none;  
+color:#333;  
+margin-left:20px;  
+}  
+  
+.btn{  
+background:#2bb3c0;  
+color:white;  
+padding:10px 18px;  
+border-radius:4px;  
+}  
+  
+/* HERO */  
+  
+.hero{  
+background:url('image01.png') center/cover no-repeat;  
+color:white;  
+padding:160px 40px;  
+position:relative;  
+}  
+  
+.hero-overlay{  
+background:rgba(0,0,0,0.4);  
+position:absolute;  
+top:0;  
+left:0;  
+right:0;  
+bottom:0;  
+}  
+  
+.hero-content{  
+position:relative;  
+max-width:650px;  
+}  
+  
+.hero h1{  
+font-size:60px;  
+margin:0;  
+}  
+  
+.hero p{  
+font-size:20px;  
+margin-top:20px;  
+}  
+  
+.hero button{  
+margin-top:30px;  
+padding:15px 30px;  
+background:#2bb3c0;  
+border:none;  
+color:white;  
+font-size:16px;  
+border-radius:4px;  
+cursor:pointer;  
+}  
+  
+/* FEATURES */  
+  
+.features{  
+padding:80px 40px;  
+background:white;  
+text-align:center;  
+}  
+  
+.feature-grid{  
+display:flex;  
+gap:40px;  
+justify-content:center;  
+margin-top:50px;  
+}  
+  
+.feature{  
+max-width:300px;  
+}  
+  
+.feature img{  
+width:100%;  
+border-radius:8px;  
+margin-bottom:15px;  
+}  
+  
+/* HOW IT WORKS */  
+  
+.steps{  
+background:#eef7f8;  
+padding:80px 40px;  
+text-align:center;  
+}  
+  
+.step-grid{  
+display:flex;  
+gap:40px;  
+justify-content:center;  
+margin-top:40px;  
+}  
+  
+.step{  
+max-width:250px;  
+}  
+  
+.step img{  
+width:100%;  
+border-radius:8px;  
+margin-bottom:10px;  
+}  
+  
+/* SHOWCASE */  
+  
+.showcase{  
+padding:80px 40px;  
+display:flex;  
+align-items:center;  
+gap:60px;  
+background:white;  
+}  
+  
+.showcase img{  
+width:50%;  
+border-radius:10px;  
+}  
+  
+.showcase-text{  
+max-width:500px;  
+}  
+  
+/* CTA */  
+  
+.cta{  
+background:#2bb3c0;  
+color:white;  
+text-align:center;  
+padding:80px 40px;  
+}  
+  
+.cta button{  
+margin-top:20px;  
+padding:15px 30px;  
+border:none;  
+background:white;  
+color:#2bb3c0;  
+font-size:16px;  
+border-radius:4px;  
+}  
+  
+/* FOOTER */  
+  
+.footer{  
+background:#111;  
+color:#aaa;  
+text-align:center;  
+padding:20px;  
+}  
+  
+/* RESPONSIVE */  
+  
+@media(max-width:900px){  
+  
+.feature-grid,  
+.step-grid,  
+.showcase{  
+flex-direction:column;  
+align-items:center;  
+}  
+  
+.showcase img{  
+width:100%;  
+}  
+  
+.hero h1{  
+font-size:40px;  
+}  
+  
+}  
+  
+</style>  
+  
+</head>  
+  
+<body>  
+  
+<!-- NAVBAR -->  
+  
+<div class="navbar">  
+  
+<div class="logo">THE MOTIVATOR</div>  
+  
+<div>  
+<a href="#">Features</a>  
+<a href="#">How it Works</a>  
+<a class="btn" href="#">Get Started</a>  
+</div>  
+  
+</div>  
+  
+  
+<!-- HERO -->  
+  
+<div class="hero">  
+  
+<div class="hero-overlay"></div>  
+  
+<div class="hero-content">  
+  
+<h1>Meet The Motivator</h1>  
+  
+<p>  
+Your smart personal butler that helps you stay productive,  
+reach your goals, and maintain a focused everyday life.  
+</p>  
+  
+<button>Start Your Productive Life</button>  
+  
+</div>  
+  
+</div>  
+  
+  
+<!-- FEATURES -->  
+  
+<div class="features">  
+  
+<h2>What The Motivator Can Do</h2>  
+  
+<div class="feature-grid">  
+  
+<div class="feature">  
+<img src="image02.png">  
+<h3>Personal Trainer</h3>  
+<p>  
+Helps you stay active and maintain healthy routines with daily motivation.  
+</p>  
+</div>  
+  
+<div class="feature">  
+<img src="image03.png">  
+<h3>Work Guard</h3>  
+<p>  
+Protects your focus during work hours and removes distractions.  
+</p>  
+</div>  
+  
+<div class="feature">  
+<img src="image04.png">  
+<h3>Goal Planner</h3>  
+<p>  
+Keeps track of your weekly goals and reminds you what needs to be done.  
+</p>  
+</div>  
+  
+</div>  
+  
+</div>  
+  
+  
+<!-- HOW IT WORKS -->  
+  
+<div class="steps">  
+  
+<h2>How It Works</h2>  
+  
+<div class="step-grid">  
+  
+<div class="step">  
+<img src="image05.png">  
+<h3>Set Your Goals</h3>  
+<p>Define your weekly targets and daily routines.</p>  
+</div>  
+  
+<div class="step">  
+<img src="image06.png">  
+<h3>Stay Focused</h3>  
+<p>The Motivator removes distractions and keeps you on track.</p>  
+</div>  
+  
+<div class="step">  
+<img src="image07.png">  
+<h3>Reach Your Goals</h3>  
+<p>Track progress and achieve more every week.</p>  
+</div>  
+  
+</div>  
+  
+</div>  
+  
+  
+<!-- SHOWCASE -->  
+  
+<div class="showcase">  
+  
+<img src="image08.png">  
+  
+<div class="showcase-text">  
+  
+<h2>Your Personal Productivity Butler</h2>  
+  
+<p>  
+The Motivator organizes your tasks, protects your focus,  
+and helps you live a more productive and balanced life.  
+</p>  
+  
+</div>  
+  
+</div>  
+  
+  
+<!-- CTA -->  
+  
+<div class="cta">  
+  
+<h2>Ready to Take Control of Your Day?</h2>  
+  
+<p>The Motivator helps you build better routines and reach your goals.</p>  
+  
+<button>Get The Motivator</button>  
+  
+</div>  
+  
+  
+<!-- FOOTER -->  
+  
+<div class="footer">  
+The Motivator © 2025  
+</div>  
+  
+  
+</body>  
+</html>  
