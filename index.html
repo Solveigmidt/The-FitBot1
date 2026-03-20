@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FitBot — The Trainer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400;0,500;0,700;0,800;0,900;1,800;1,900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main>
+
+    <section class="hero section">
+      <div class="container">
+        <div class="hero-card" id="heroCard" style="background-image: url('images/image01.png');">
+
+          <div class="hero-copy">
+            <span class="eyebrow">Smart Fitness Butler</span>
+            <h1>The <span class="accent">FitBot</span></h1>
+            <p>
+              FitBot builds your workouts, keeps you accountable, and pushes you through every rep with real-time motivation. A personal trainer, coach and workout companion — in one futuristic assistant.
+            </p>
+            <div class="hero-actions">
+              <a href="#features" class="btn btn-primary">See features</a>
+              <a href="#reviews" class="btn btn-secondary">Read reviews</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="section">
+      <div class="container">
+        <h2>Feature <span class="accent-blue">Breakdown</span></h2>
+
+        <div class="grid-3">
+
+          <article class="card">
+            <div class="image-box">
+              <img src="images/image02.png" alt="Workout plan screen" />
+            </div>
+            <h3>Custom Workout Plans</h3>
+            <p class="feature-text">
+              FitBot customises workout plans suited for you, based on your goals, level and training needs.
+            </p>
+          </article>
+
+          <article class="card">
+            <div class="image-box">
+              <img src="images/image03.png" alt="Timer display" />
+            </div>
+            <h3>Built-in Timer</h3>
+            <p class="feature-text">
+              The chest display keeps track of time and tells you exactly how many seconds you have left during each interval or break.
+            </p>
+          </article>
+
+          <article class="card">
+            <div class="image-box">
+              <img src="images/image04.png" alt="Speakers" />
+            </div>
+            <h3>Music &amp; Voice Control</h3>
+            <p class="feature-text">
+              The side speakers can play music, and you can communicate with FitBot to make it play whatever you want.
+            </p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container two-col">
+
+        <div class="text-block">
+          <h2>Customize Your <span class="accent">FitBot</span></h2>
+          <p>
+            Customize it to the color that suits you. You want it to change to purple? Just say “FitBot, change color to purple”, and it will do exactly as you want.
+          </p>
+        </div>
+
+        <div class="custom-box">
+          <div class="custom-media">
+            <img src="images/image10.png" alt="Customizable FitBot color preview" />
+          </div>
+          <div class="custom-caption">Choose your own style</div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container context-layout">
+
+        <div class="context-gallery gallery-frame">
+          <button class="arrow left" id="prevSlide" type="button" aria-label="Previous image">&#8592;</button>
+
+          <div class="gallery-placeholder">
+            <img id="contextImage" src="images/image05.png" alt="FitBot in use context" />
+          </div>
+
+          <button class="arrow right" id="nextSlide" type="button" aria-label="Next image">&#8594;</button>
+        </div>
+
+        <div class="text-block">
+          <h2>In Use <span class="accent">Context</span></h2>
+          <p>
+            This area shows FitBot in real-life settings like a home gym, studio or shared fitness space. The goal is to show that the product is not just futuristic — it is useful, social and easy to understand in everyday life.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2>More <span class="accent-blue">Details</span></h2>
+
+        <div class="details-grid">
+
+          <div class="card detail-item">
+            <div class="image-box">
+              <img src="images/detail01.png" alt="Voice assistant UI" />
+            </div>
+            <p class="feature-text">Voice assistant UI</p>
+          </div>
+
+          <div class="card detail-item">
+            <div class="image-box">
+              <img src="images/detail02.png" alt="Mobility and sensors" />
+            </div>
+            <p class="feature-text">Mobility and sensors</p>
+          </div>
+
+          <div class="card detail-item">
+            <div class="image-box">
+              <img src="images/detail03.png" alt="Workout summary screen" />
+            </div>
+            <p class="feature-text">Workout summary screen</p>
+          </div>
+
+          <div class="card detail-item">
+            <div class="image-box">
+              <img src="images/detail04.png" alt="Companion app preview" />
+            </div>
+            <p class="feature-text">Companion app preview</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="reviews" class="section">
+      <div class="container">
+        <h2>Reviews</h2>
+
+        <div class="reviews-grid">
+          <article class="review-card">
+            <div class="avatar"></div>
+            <p class="quote">“It feels like having a coach that actually shows up every single day.”</p>
+            <div class="review-meta">Emma, early access user</div>
+          </article>
+
+          <article class="review-card">
+            <div class="avatar"></div>
+            <p class="quote">“The accountability is the best part. I stop skipping workouts.”</p>
+            <div class="review-meta">Jonas, beta tester</div>
+          </article>
+
+          <article class="review-card">
+            <div class="avatar"></div>
+            <p class="quote">“It looks futuristic, but the experience is surprisingly simple and motivating.”</p>
+            <div class="review-meta">Mia, fitness creator</div>
+          </article>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      FitBot concept landing page — built with your palette, bold sports-inspired typography and the wireframe structure you sketched.
+    </div>
+  </footer>
+
+  <script>
+    const contextImages = [
+      "images/image05.png",
+      "images/image06.png",
+      "images/image07.png",
+      "images/image08.png"
+    ];
+
+    const contextAlts = [
+      "FitBot in use at home",
+      "FitBot in a studio setting",
+      "FitBot lifestyle training scene",
+      "FitBot social workout context"
+    ];
+
+    let currentSlide = 0;
+
+    const contextImage = document.getElementById("contextImage");
+    const prevSlide = document.getElementById("prevSlide");
+    const nextSlide = document.getElementById("nextSlide");
+
+    function showSlide(index) {
+      contextImage.style.opacity = "0";
+
+      setTimeout(() => {
+        contextImage.src = contextImages[index];
+        contextImage.alt = contextAlts[index];
+        contextImage.style.opacity = "1";
+      }, 180);
+    }
+
+    prevSlide.addEventListener("click", () => {
+      currentSlide = (currentSlide - 1 + contextImages.length) % contextImages.length;
+      showSlide(currentSlide);
+    });
+
+    nextSlide.addEventListener("click", () => {
+      currentSlide = (currentSlide + 1) % contextImages.length;
+      showSlide(currentSlide);
+    });
+
+    setInterval(() => {
+      currentSlide = (currentSlide + 1) % contextImages.length;
+      showSlide(currentSlide);
+    }, 5000);
+
+    const heroCard = document.getElementById("heroCard");
+
+    heroCard.addEventListener("mousemove", (e) => {
+      const rect = heroCard.getBoundingClientRect();
+      const x = e.clientX - rect.left;
+      const y = e.clientY - rect.top;
+
+      const moveX = (x / rect.width - 0.5) * 8;
+      const moveY = (y / rect.height - 0.5) * 8;
+
+      heroCard.style.transform = `translate(${moveX * 0.4}px, ${moveY * 0.4}px)`;
+    });
+
+    heroCard.addEventListener("mouseleave", () => {
+      heroCard.style.transform = "translate(0, 0)";
+    });
+  </script>
+</body>
+</html>
